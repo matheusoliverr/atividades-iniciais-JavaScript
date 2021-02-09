@@ -1,3 +1,5 @@
+//Cálculo de possibilidade de aposentadoria de acordo com idade, sexo e anos de contribuição
+
 const person={
     nome:"Silvana",
     idade:60,
