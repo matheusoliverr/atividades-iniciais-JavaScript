@@ -1,3 +1,5 @@
+//Cálculo de IMC utilizando peso e altura
+
 const name = "Carlos";
 const peso = 110;
 const altura = 1.88;
