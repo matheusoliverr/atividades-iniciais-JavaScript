@@ -1,5 +1,4 @@
-//user:name(Carlos,Jasmine,Tuane),tech[(html,css),(javascript,css),(html,node.js)]
-//Carlos trabalha com HTML, CSS; Jasmine trabalha com Javascript, CSS; Tuane trabalha com HTML, Node.js
+//Escreve mensagem no terminal utilizando for, objetos e variáveis
 
 const users = [
     {
