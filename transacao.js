@@ -4,6 +4,8 @@ const user={
     balance:0
 };
 
+//Funcionalidade de adicionar transações, com diferenciação entre crédito e débito
+
 function createTransaction(transaction){
     
        if(transaction.type=="credit"){
@@ -20,6 +22,8 @@ function createTransaction(transaction){
        }
 }
 
+//Funcionalidade de contagem de transações pelo seu tipo
+
 function getTransactionsCount(type){
 let transactionNumber=0
     for(transaction of user.transactions){
@@ -29,6 +33,8 @@ let transactionNumber=0
 }
 return transactionNumber
 }
+
+//Funcionalidade de cálculo da maior transação realizada pelo seu tipo
 
 function getHigherTransactionByType(type){
     let higherTransaction
@@ -41,6 +47,8 @@ function getHigherTransactionByType(type){
     }
     return higherTransaction
 }
+
+//Funcionalidade de cálculo da média de valor das transações
 
 function getAverageTransactionValue(){
     let totalValue=0
