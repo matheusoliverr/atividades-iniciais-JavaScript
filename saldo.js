@@ -1,3 +1,5 @@
+//Cálculo do saldo do usuário utilizando a soma de receitas e despesas
+
 const usuarios = [
     {
       nome: 'Salvio',
